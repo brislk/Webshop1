@@ -28,16 +28,16 @@ header li {
   list-style: none;
 }
 
-#breadcrumbs ul {
+#styling ul {
   display: flex;
   gap: 1vw;
 }
 
-#breadcrumbs li {
+#styling li {
   list-style: none;
 }
 
-#breadcrumbs a {
+#styling a {
   color: #ffffff;
 }
 

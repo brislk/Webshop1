@@ -25,24 +25,24 @@ header li a {
 header li {
   list-style: none;
 }
-#breadcrumbs {
+#styling {
   margin-bottom: 5vw;
 }
 
-#breadcrumbs ul {
+#styling ul {
   display: flex;
   gap: 1vw;
 }
 
-#breadcrumbs li {
+#styling li {
   list-style: none;
 }
 
-#breadcrumbs a {
+#styling a {
   color: #ffffff;
 }
 
-#breadcrumbs .category {
+#styling .category {
   text-decoration: underline;
 }
 
