@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
+
+body {
+  color: #ffffff;
+  font-family: 'Shippori Mincho', serif;
+  background-color: rgb(24, 23, 23);
+  text-transform: uppercase;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul li img {
+  max-width: 10vw;
+}
+header li a {
+  text-decoration: none;
+  color: #ffffff;
+ 
+}
+
+header li {
+  list-style: none;
+}
+
+#breadcrumbs ul {
+  display: flex;
+  gap: 1vw;
+}
+
+#breadcrumbs li {
+  list-style: none;
+}
+
+#breadcrumbs a {
+  color: #dbdbdb;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;
+}
+
+main header {
+  text-align: center;
+  margin: 3vw;
+}
+
+article {
+  border: solid #ffffff;
+  width: 20vw;
+  padding: 2vw;
+}
+
+article img {
+  max-width: 90%;
+}
+
+article li {
+  list-style: none;
+  color: #ffffff;
+}
+
+article a {
+  text-decoration: none;
+}
+
+
+article ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+article .brand {
+  opacity: 0.5;
+  margin-top: -1.4vw;
+  font-style: italic;
+}
+
+article .price {
+  font-size: 1.2em;
+  font-weight: bolder;
+  padding-left: 0.5vw;
+  margin-top: 2vw;
+}
+
+article.sold_out {
+  opacity: 0.5;
+}
+
+article.sold_out::before {
+  content: "sold out";
+  text-transform: uppercase;
+  position: absolute;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 2vw;
+  border-radius: 60%;
+  width: 3.6vw;
+  text-align: center;
+}
+
+
+
+article .prev_price {
+  text-decoration: line-through;
+}
+
+article .discount_percent {
+  text-transform: uppercase;
+}
+
+article .discount {
+  display: none;
+}
+
+article.on_sale div.discount {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
+
+body {
+    color: #ffffff;
+    font-family: 'Shippori Mincho', serif;
+    background-color: rgb(24, 23, 23);
+
+  }
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+header ul li img {
+  max-width: 10vw;
+}
+header li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header li {
+  list-style: none;
+}
+#breadcrumbs {
+  margin-bottom: 5vw;
+}
+
+#breadcrumbs ul {
+  display: flex;
+  gap: 1vw;
+}
+
+#breadcrumbs li {
+  list-style: none;
+}
+
+#breadcrumbs a {
+  color: #ffffff;
+}
+
+#breadcrumbs .category {
+  text-decoration: underline;
+}
+
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1vw;
+  max-width: 80%;
+  margin: auto;
+  gap: 4vw;
+}
+#wrapper img {
+  flex-shrink: 3;
+  max-width: 45%;
+  height: 40%;
+}
+
+#product_text {
+  border: solid #ffffff54 3px;
+  padding: 2vw;
+  width: 70%;
+}
+
+#product_text ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+}
+
+#product_text li {
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+#wrapper li {
+  list-style: none;
+  margin-bottom: 1vw;
+}
+
+#product_text .brand {
+  opacity: 0.5;
+  font-size: 1.5em;
+  margin-top: -2vw;
+}
+#product_text .price {
+  font-size: 1.7em;
+  margin: 0;
+}
+
+#product_text .description {
+  margin-bottom: 2vw;
+}
+
+#product_text .color {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+
+#product_text .color_box {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+#product_text .size {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+#product_text select {
+color: white;
+  width: 15vw;
+  padding: 0.5vw;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-color: #ffffff05;
+  background-position: right 10px center;
+  border: 1px solid #ffffff31;
+  cursor: pointer;
+}
+
+#product_text button {
+  background-color: #ffffff1a;
+  padding: 1.5vw;
+  font-family: 'Shippori Mincho', serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  font-size: 1.7em;
+  margin-top: 2vw;
+  align-self: center;
+  margin-left: 15%;
+  cursor: pointer;
+}

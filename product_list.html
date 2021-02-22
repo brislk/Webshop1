@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product list</title>
+    <link rel="stylesheet" href="product_list.css" />
+  </head>
+  <body>
+<header>
+</header>
+<div id="breadcrumbs">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="category.html">Categories</a></li>
+        <li>Apparel</li>
+    </ul>
+</div>
+<main>
+    <header><h1>Apparel</h1></header>
+    <section>
+    <template id="reg_product_template">
+     <article class="one_product">   
+         <a href="product.html?id=1163">
+            <ul>
+            <li><img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="Sahara Team India Fanwear Round Neck Jersey"></li>
+          
+                <li>
+                   <h2 class="name">Sahara Team India Fanwear Round Neck Jersey</h2>
+                </li>
+                <li class="brand">
+                    <p>Nike</p>
+                </li>
+                <li><div class="discount">
+                    <p class="prev_price">20EUR</p>
+                    <p class="discount_percent">10% off</p>
+                </div> </li>
+                <li class="price">
+                    <p>18EUR.</p>
+                </li>
+       
+            </ul>  </a>
+        </article>
+    </template>
+</section>
+</main>
+
+<script src="product_list.js"></script>
+  </body>
+</html>
